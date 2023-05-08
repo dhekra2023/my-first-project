@@ -1,0 +1,33 @@
+
+    
+body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(https://img.freepik.com/vecteurs-libre/flyer-abstrait-sakura-publicite-nouvelle-collection-rouge-levres-cosmetiques_1284-27513.jpg?w=740&t=st=1683543322~exp=1683543922~hmac=7c70ebc8a1932abb4931e20369f62084db6ea5aab24b4afcb32f3480d4ef6a27) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        z-index: 99;
+        
+    }
+    
+    .logo{ 
+       font-size: 2em;
+       color: #fff;
+       user-select: : none;
+        }
+    
